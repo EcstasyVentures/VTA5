@@ -42,7 +42,7 @@ const VTA5LandingPage = () => {
         setTimeout(() => {
             console.log('Waitlist form submitted:', formData);
             
-            // Simulate sending email (in real app, this would be done on the backend)
+            // Simulate sending email 
             const emailContent = {
                 to: 'jigar@ectsasyventures.com',
                 subject: 'New VTA5 Waitlist Registration',
