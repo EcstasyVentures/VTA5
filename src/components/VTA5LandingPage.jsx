@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, TrendingUp, Trophy, Users, DollarSign, Bot, CheckCircle, X, Mail, User, Phone, Building, Zap, Target, Globe, BarChart3, Calendar, Award, Star, Play } from 'lucide-react';
 import platformPreviewImage from '../assets/platformPreview.jpg';
-import HyperSpeed from './HyperSpeed';
+import HyperSpeed from './HyperSpeed.jsx';
 
 const VTA5LandingPage = () => {
   const [email, setEmail] = useState('');
